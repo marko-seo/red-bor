@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Template HTML</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<!-- Custom HTML -->
+	<div class="page-wrap">
+
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="row align-items-center justify-content-between justify-content-sm-start">
+					<div class="col-lg-1 col-md-1 col-auto">
+						<a href="/" class="logo header__logo">
+							<img class="img-responsive" src="img/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-8 col-md-10 col-sm-9 col-8">
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Главная</a>
+								</li>
+								<li class="menu__item">
+									<a href="#statistics" class="menu__link">Цифры проекта</a>
+								</li>
+								<li class="menu__item">
+									<a href="#advantages" class="menu__link">Преимущества</a>
+								</li>
+								<li class="menu__item">
+									<a href="#map" class="menu__link">Ген. план</a>
+								</li>
+								<li class="menu__item">
+									<a href="#gallery" class="menu__link">Галерея</a>
+								</li>
+								<li class="menu__item">
+									<a href="#contact" class="menu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-1 col-auto">
+						<div class="header__contact">
+							<a href="tel:+7 987 890 90 90" class="phone header__phone">
+								<span>+7 987 890 90 90</span>
+							</a>
+							<button class="header__order-call btn-order-call">
+								<u>заказать звонок</u>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<!-- Banner -->
+		<section class="banner" style="background-image: url('img/banner.jpg')">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-7">
+						<div class="banner__inner">
+							<h1 class="banner__header">
+								Участки в Красном Бору
+								на берегу Тверцы
+							</h1>
+							<p class="banner__subheader">
+								Недорогие земельные участки у воды под ИЖС
+							</p>
+							<button class="btn btn-primary btn-order-view">Запись на просмотр</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner -->
+
+		<!-- Statistics -->
+		<section class="statistics" id="statistics">
+			<div class="container">
+				<h4 class="header-primary">Цифры проекта</h4>
+				<div class="statistics__body" id="statistics-app">
+					<div class="row align-items-center">
+						<div class="col-lg-5">
+							<ul class="statistics__list">
+								<li class="statistics__item statistics__item--active">
+									<b class="statistics__num">15 га</b>
+									<p class="statistics__text">общая площадь участков</p>
+								</li>
+								<li class="statistics__item">
+									<b class="statistics__num">115 шт</b>
+									<p class="statistics__text">общее количество участков</p>
+								</li>
+								<li class="statistics__item">
+									<b class="statistics__num">40 км</b>
+									<p class="statistics__text">расстояния по трассе от Твери</p>
+								</li>
+								<li class="statistics__item">
+									<b class="statistics__num">15 000 руб</b>
+									<p class="statistics__text">за сотку</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-7">
+							<div class="statistics__visual">
+								<span class="ellips ellips--active">
+									<div class="ellips__content">
+										<b>15 га</b>
+										<p>общая площадь участков</p>
+									</div>
+								</span>
+								<span class="ellips">
+									<div class="ellips__content">
+										<b>115 шт</b>
+										<p>общее количество участков</p>
+									</div>
+								</span>
+								<span class="ellips">
+									<div class="ellips__content">
+										<b>40 км</b>
+										<p>расстояния по трассе от Твери</p>
+									</div>
+								</span>
+								<span class="ellips">
+									<div class="ellips__content">
+										<b>15 000 руб</b>
+										<p>за сотку</p>
+									</div>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End statistics -->
+
+		<!-- About village -->
+		<section class="about-village">
+			<div class="container">
+				<h4 class="header-primary">О деревне Красный Бор</h4>
+				<div class="about-village__body">
+					<div class="row align-items-center">
+						<div class="col-xl-6 col-lg-7">
+							<div class="about-village__photo">
+								<picture>
+									<img class="img-responsive" src="img/village.jpg" alt="">
+								</picture>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-5">
+							<div class="about-village__info">
+								<b class="about-village__title">Расположение</b>
+								<p class="about-village__desc">
+									Деревня Красный Бор расположена в 17 км к
+									северо-западу от Твери, на левом берегу реки Тверцы.
+									В 2 км к востоку — платформа Тверца на участке 
+									Тверь — Лихославль главного хода Октябрьской
+									железной дороги, в 3,5 км к северу — станция 
+									Кулицкая. За Тверцой — деревни Слободка и Кобячево.
+									В 7 км расположена удобная развязка с трассы M10
+									(Москва – Санкт-Петербург).
+								</p>
+								<p class="about-village__desc">
+									Поселение находится в окружении прекрасного
+									соснового бора и живописных берегов реки Тверца.
+								</p>
+								<button class="btn btn-secondary btn-order-view" v-on:click="">Запись на просмотр</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End about village -->
+
+		<!-- Advantages -->
+		<section class="advantages" id="advantages">
+			<div class="container">
+				<h4 class="header-primary">Преимущества</h4>
+				<div class="advantages__body">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-car"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Транспортная доступность
+								</b>
+								<p class="advantages__desc">
+									40 км от Твери <br>
+									7км от трассы M10<br>
+									3 км от станции "Тверца"<br>
+									15 минут на электричке
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-sale"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Стоимость ниже рыночной
+								</b>
+								<p class="advantages__desc">
+									от 15 000 за сотку
+									от 135 000 руб за участок
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-home"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Большой выбор участков
+								</b>
+								<p class="advantages__desc">
+									Первая, вторая и третья линия от воды
+									Подберем согласно пожеланиям
+									Размер участков от 9 до 24 соток
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-light-bulb"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Электричество
+								</b>
+								<p class="advantages__desc">
+									подключение 15 кВт на<br>участок
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-mobail"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Мобильная связь
+								</b>
+								<p class="advantages__desc">
+									Высокое качество <br>
+									мобильной связи
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-nature"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Живописная природа района
+								</b>
+								<p class="advantages__desc">
+									Река (отсутствуе предприятий на речке)
+									отличный сосновый бор
+									грибы, ягоды, рыбалка и чистый воздух
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xl-5">
+							<div class="advantages__item">
+								<i class="advantages__icon">
+									<svg>
+										<use xlink:href="img/sprite.svg#icon-map"></use>
+									</svg>
+								</i>
+								<b class="advantages__name">
+									Благоустройство территории
+								</b>
+								<p class="advantages__desc">
+									1 оборудованный пляж/ зона вывоза мусора)
+									поперечные дороги прямо к реке
+									возле каждого участка прямая дорога к реке
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-8 col-xl-7 align-self-end">
+							<div class="advantages__action" style="background-image: url('img/advantages-banner-green.jpg')">
+								<p class="advantages__action-text">
+									Лучше 1 раз посмотреть, <br>
+									чем 5 раз прочитать
+								</p>
+								<button class="btn btn-primary btn-order-view">Запись на просмотр</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End advantages -->
+
+		<!-- Interactive-map -->
+		<section class="map d-none d-xl-block" id="map">
+			<div class="container">
+				<h4 class="header-primary map__header">Карта участков</h4>
+				<div class="map__main">
+					<svg class="map__svg" viewBox="0 0 867 544" xmlns="http://www.w3.org/2000/svg">
+						<g>
+							<g v-for="(plot_item, i) in plots" v-on:click="getElement(i)">
+								<path
+									v-bind:key="plot_item.id"
+									v-bind:d="plot_item.coord"
+									v-bind:fill="showStatus(plot_item.status)"
+								/>
+							</g>
+						</g>
+					</svg>
+					<div class="map-overlay">
+						<div 
+							class="modal" 
+							v-for="(modal_item, i) in plots" 
+							v-bind:style="getCoord(modal_item.coord)"
+							v-if="renderModal(modal_item.status)"
+							v-bind:class="showModal(i)"
+						>
+							<div class="modal__data">
+								<b class="modal__title">Участок {{modal_item.id}}</b>
+								<ul class="modal__list">
+									<li class="modal__list-item">Кад. Номер: {{modal_item.kad}}</li>
+									<li class="modal__list-item">Площадь: {{modal_item.area}} соток</li>
+									<li class="modal__list-item">Линия от берега: {{modal_item.line}}.</li>
+									<li class="modal__list-item">Тип участка: {{modal_item.type}}</li>
+									<li class="modal__list-item">Стоимость: {{modal_item.price}} руб</li>
+								</ul>
+								<button v-on:click="passNumber(modal_item.id)" class="btn btn-secondary modal__btn btn-order-booked">Забронировать</button>
+								<span v-on:click="isActive = ''" class="modal__close"></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="designations">
+						<b class="designations__title">Обозначения на карте</b>
+						<ul class="designations__list">
+							<li class="designations__item">
+								<span class="designations__color designations__color--red"></span>
+								<span class="designations__caption">— Участок куплен</span>
+							</li>
+							<li class="designations__item">
+								<span class="designations__color designations__color--green"></span>
+								<span class="designations__caption">— Участок готов к продаже</span>
+							</li>
+							<li class="designations__item ">
+								<span class="designations__color designations__color--orange"></span>
+								<span class="designations__caption">— Скоро в продаже <br>(возможна бронь)</span>
+							</li>
+							<li class="designations__item">
+								<span class="designations__color designations__color--blue"></span>
+								<span class="designations__caption">— участок забронированный</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End interactive-map -->
+
+		<!-- Book now -->
+		<section class="book-now">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 offset-lg-1">
+						<div class="book-now__text">
+							<h4 class="header-primary book-now__header">Забронируй участок сейчас</h4>
+							<p class="book-now__desc">
+								Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim a
+							</p>
+							<button class="btn btn-primary btn-order-booked">Забронировать участок</button>
+						</div>
+					</div>
+					<div class="col-lg-5 d-none d-lg-block">
+						<div class="book-now__img">
+							<img class="img-responsive" src="img/city.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End book now  -->
+
+		<!-- Timeline -->
+		<section class="timeline">
+			<div class="container">
+				<h4 class="header-primary">Приобретение участка в 5 шагов</h4>
+				<div class="timeline__body">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="timeline__item">
+								<b class="timeline__item-name">Оставьте заявку на консультациюили позвонить </b>
+								<p class="timeline__item-desc">
+									В первую очередь стоит уточнить все детали по телефону.
+									Менеджер проконсультирует по вашему будущему участку
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6 offset-lg-6">
+							<div class="timeline__item">
+								<b class="timeline__item-name">Выбор и просмотр участка в Красном Бору</b>
+								<p class="timeline__item-desc">
+									Договорившись на просмотр участка, наш менеджер приедет
+									в назначенный день и час и покажет актуальные участки.
+									При желании Вы можете забронировать понравившийся
+									участок через наш сайт или по телефону
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="timeline__item">
+								<b class="timeline__item-name">Заключение Договора и оплата</b>
+								<p class="timeline__item-desc">
+									При готовности купить участок ИЖС в Красном Бору,
+									мы с Вами встречаемся в офисе, готовим необходимые
+									документы, после чего, на основании подписанных
+									сторонами договоров, Вы производите оплату в банке.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6 offset-lg-6">
+							<div class="timeline__item">
+								<b class="timeline__item-name">Регистрация документов и получение свидетельства</b>
+								<p class="timeline__item-desc">
+									После 100% оплаты по договору наши менеджеры сдают
+									необходимые документы в регистрационную палату и через
+									несколько недель Вы получаете свидетельство о праве
+									собственности на земельный участок в Красном Бору.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="timeline__item">
+								<b class="timeline__item-name">
+									Через 30 дней Вы получаете свидетельство о собственности на участок!
+								</b>
+								<p class="timeline__item-desc">
+									Поздравляем, после получения документов вы являетесь собственником
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End timeline -->
+
+		<!-- Sign up view -->
+		<section class="sign-up-view" style="background-image: url('img/sign-up-view-banner.svg')">
+			<div class="container">
+				<h4 class="sign-up-view__header">
+					Запишитесь на просмотр земельного участка<br>
+					в "Красном Бору" это абсолютно бесплатно!
+				</h4>
+				<button class="btn btn-primary btn-order-view">Запись на просмотр</button>
+			</div>
+		</section>
+		<!-- End sign up view -->
+
+		<!-- Gallery -->
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<h4 class="header-primary">Фотогалерея</h4>
+			</div>
+			<div class="gallery__slider">
+				<div class="gallery__swiper-wrapper swiper-wrapper">
+					<div class="swiper-slide gallery__item">
+						<img src="img/gallery/gallery-photo-1.jpeg" alt="">
+					</div>
+					<div class="swiper-slide gallery__item">
+						<img src="img/gallery/gallery-photo-2.jpeg" alt="">
+					</div>
+					<div class="swiper-slide gallery__item">
+						<img src="img/gallery/gallery-photo-3.jpeg" alt="">
+					</div>
+					<div class="swiper-slide gallery__item">
+						<img src="img/gallery/gallery-photo-4.jpeg" alt="">
+					</div>
+				</div>
+				<nav class="gallery__nav">
+					<button class="gallery__btn gallery__btn--prev">
+						<svg class="icon-arrow">
+							<use xlink:href="img/sprite.svg#icon-arrow-left"></use>
+						</svg>
+					</button>
+					<button class="gallery__btn gallery__btn--next">
+						<svg class="icon-arrow">
+							<use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+						</svg>
+					</button>
+				</nav>
+			</div>
+		</section>
+		<!-- End gallery -->
+
+		<!-- Map -->
+		<section class="contact" id="contact">
+			<div class="contact__overlay">
+				<div class="container">
+					<div class="contact__modal">
+						<div class="contact__modal-inner">
+							<b class="contact__title">Контакты для связи</b>
+							<p class="contact__link">Звоните: <a href="tel:8 (906) 654-81-06">8 (906) 654-81-06</a></p>
+							<p class="contact__link">Пишите: <a href="mailto:krasnibor@yandex.ru">krasnibor@yandex.ru</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact__inner">
+				<iframe class="contact__iframe" src="https://yandex.ru/map-widget/v1/-/CCcq5ZJ8"
+					allowfullscreen="true"></iframe>
+			</div>
+		</section>
+		<!-- End map -->
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1 col-md-2 col-12">
+						<a href="/" class="logo footer__logo">
+							<img class="img-responsive" src="img/logo-footer.png" alt="">
+						</a>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+						<div class="footer__box">
+							<ul class="footer__list">
+								<li class="footer__item">
+									<a href="" class="footer__link">Главная</a>
+								</li>
+								<li class="footer__item">
+									<a href="" class="footer__link">Цифры проекта</a>
+								</li>
+								<li class="footer__item">
+									<a href="" class="footer__link">Текстовый</a>
+								</li>
+								<li class="footer__item">
+									<a href="" class="footer__link">Преимущества</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-3 col-6">
+						<div class="footer__box">
+							<ul class="footer__list">
+								<li class="footer__item">
+									<a href="" class="footer__link">Карта</a>
+								</li>
+								<li class="footer__item">
+									<a href="" class="footer__link">5 шагов</a>
+								</li>
+								<li class="footer__item">
+									<a href="" class="footer__link">Галерея</a>
+								</li>
+								<li class="footer__item">
+									<a href="" class="footer__link">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-5 col-6">
+						<div class="footer__box">
+							<b class="footer__title">Контакты</b>
+							<ul class="footer__list">
+								<li class="footer__item">
+									<a href="mailto:krasnibor@yandex.ru" class="footer__link">krasnibor@yandex.ru</a>
+								</li>
+								<li class="footer__item">
+									<a href="tel: +7 987 890 90 90" class="footer__link">+7 987 890 90 90</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<form class="footer__form">
+							<legend class="footer__title">Оставить заявку</legend>
+							<input type="mail" class="footer__form-input" placeholder="Например, mail@yandex.ru">
+							<button class="footer__form-btn"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer -->
+
+		<div id="form-call" v-bind:class="[seen ? 'overlay--active' : '', 'overlay']" v-if="seen"> 
+			<form class="form" v-bind:class="showForm">
+				<span class="btn-close" v-on:click="closeForm"></span>
+				<legend class="form__title">Заказать звонок</legend>
+				<label class="form__field-group" v-for="item_field in fields">
+					<span>{{item_field.label}}</span>
+					<input 
+						class="form__input"
+						v-model='item_field.val'
+						v-bind:type="item_field.type" 
+						v-bind:name="item_field.name"
+						v-bind:required="item_field.required"
+						v-bind:placeholder=item_field.placeholder
+					>
+				</label>
+				<div class="form__action">
+					<button v-on:click.prevent="sumbitForm" class="btn btn-secondary">Заказать звонок</button>
+				</div>
+			</form>
+		</div>
+
+
+		<div id="form-view" v-bind:class="[seen ? 'overlay--active' : '', 'overlay']" v-if="seen"> 
+			<form class="form" v-bind:class="showForm">
+				<span class="btn-close" v-on:click="closeForm"></span>
+				<legend class="form__title">Запись на просмотр</legend>
+				<label class="form__field-group" v-for="item_field in fields">
+					<span>{{item_field.label}}</span>
+					<input 
+						class="form__input" 
+						v-model='item_field.val'
+						v-bind:type="item_field.type" 
+						v-bind:name="item_field.name"
+						v-bind:required="item_field.required"
+						v-bind:placeholder=item_field.placeholder
+					>
+				</label>
+				<div class="form__action">
+					<button v-on:click.prevent="sumbitForm" class="btn btn-secondary">Отправить заявку</button>
+				</div>
+			</form>
+		</div>
+
+		<div id="form-booked" v-bind:class="[seen ? 'overlay--active' : '', 'overlay']" v-if="seen"> 
+			<form class="form" v-bind:class="showForm">
+				<span class="btn-close" v-on:click="closeForm"></span>
+				<legend class="form__title">Забронировать участок</legend>
+				<label class="form__field-group" v-for="item_field in fields">
+					<span>{{item_field.label}}</span>
+					<input 
+						class="form__input" 
+						v-model='item_field.val'
+						v-bind:type="item_field.type" 
+						v-bind:name="item_field.name"
+						v-bind:required="item_field.required"
+						v-bind:placeholder=item_field.placeholder
+					>
+				</label>
+				<div class="form__action">
+					<button v-on:click.prevent="sumbitForm" class="btn btn-secondary">Отправить заявку</button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+
+
+	<!-- Для разработки  -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<!-- Для продакшена -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+
+	<script src="js/libs.min.js"></script>
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

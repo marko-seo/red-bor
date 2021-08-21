@@ -1,0 +1,33 @@
+@import "../vars"
+
+=a($color: $text, $hover-color: $text, $text-decoration: none)
+  color: $color
+  text-decoration: $text-decoration
+  &:hover
+    color: $hover-color
+    text-decoration: $text-decoration
+  &:focus
+    color: $color
+    text-decoration: $text-decoration
+
+=list($margin: 0, $padding: 0, $list-style: none)
+  margin: $margin
+  padding: $padding
+  list-style-type: $list-style
+
+=scrollbar($size, $back-thumb, $back-track)
+  &::-webkit-scrollbar
+    width: $size
+
+  &::-webkit-scrollbar-thumb
+    background: $back-thumb
+    border-radius: 6px
+
+  &::-webkit-scrollbar-track
+    background: $back-track
+    border-radius: 0 6px 6px 0
+
+  &::-webkit-scrollbar-track-piece
+    background: $back-track
+    border-radius: 0 6px 6px 0
+ 
